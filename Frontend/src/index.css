@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/*! Google Font Urbanist  */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Urbanist", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --breakpoint-md: 48rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+  --color-primary: #37353E;
+  --color-secondary: #44444E;
+  --color-white: #D3DAD9;
+}
+
+.container {
+    margin: 0 auto;
+  }
