@@ -4,8 +4,8 @@ import Loader from "./components/Loader.jsx";
 import { AppContextProvider } from "./context/AppContext.jsx";
 
 // Import Pages
-const StudentLayout = React.lazy(() => import("./pages/layout/StudentLayout"));
-const EducatorLayout = React.lazy(() => import("./pages/layout/EducatorLayout"));
+const StudentLayout = React.lazy(() => import("./layout/StudentLayout.jsx"));
+const EducatorLayout = React.lazy(() => import("./layout/EducatorLayout.jsx"));
 const Home = React.lazy(() => import("./pages/student/Home"));
 const CoursesList = React.lazy(() => import("./pages/student/CoursesList"));
 const CourseDetail = React.lazy(() => import("./pages/student/CourseDetail"));
